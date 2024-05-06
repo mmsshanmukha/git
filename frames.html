@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>frameset attribute</title>
+	</head>
+	<frameset rows = "35%,*">
+        <frame name="top" src="top.html" noresize scrolling="no"/>
+		<frameset cols="15%,*">
+	    	<frame name = "left" src="left.html" no resize scrolling="no"/>
+		    <frame name = "right" src="right.html" no resize scrolling="auto"/>
+        </frameset>
+		<noframes>
+			<body>The browser you are working does not support frames.</body>
+		</noframes>
+	</frameset>
+</html>
