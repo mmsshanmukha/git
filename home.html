@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipe Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Delicious Recipes</h1>
+        <div class="marquee-container">
+            <div class="marquee">A recipe has no soul.You, as the cook, must bring the soul to the recipe.<i class="fas fa-cheese"></i>
+                <i class="fas fa-carrot"></i>
+                <i class="fas fa-hamburger"></i>
+                <i class="fas fa-pizza-slice"></i></div>
+          </div>
+
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="about.html">About</a>
+        <a href="c.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div class="recipe">
+            <div class="recipe-item" onclick="redirectToLink()" target="blank">
+                <center> <h3>Chicken Dum Biryani</h3>
+                <img src="11.jpg" alt="Chicken Dum Biryani" width="50%" height="50%">
+                <p>Biryani is the spice of life that adds flavor to every moment.</p></center>
+            </div>
+            <div class="recipe-item" onclick="redirectToLink1()">
+                <center>
+                <h3>Chicken Alfredo</h3>
+                <img src="Chicken-Alfredo-bowl.jpg" alt="Chicken Dum Biryani" width="50%" height="50%">
+                <p>Creamy pasta sauce made with chicken, Parmesan cheese, and garlic.</p></center>
+            </div>
+            <div class="recipe-item"><center>
+                <h3>Vegetable Stir-Fry</h3>
+                <img src="wholesomeyum-Stir-Fry-Vegetables-15.jpg" alt="Chicken Dum Biryani" width="50%" height="50%">
+                <p>Healthy stir-fried vegetables with soy sauce and ginger.</p></center>
+            </div>
+            <div class="recipe-item" onclick="redirectToLink2()"><center>
+                <h3>Panner Butter Masala</h3>
+                <img src="paneer-tikka-masala.jpg" alt="Chicken Dum Biryani" width="50%" height="50%">
+                <p>Nothing warms a true foodie's heart more than a big bowl of Paneer Butter Masala</p></center>
+            </div>
+        </div>
+    </div>
+    <script>
+        function redirectToLink() {
+          window.location.href = "https://en.wikipedia.org/wiki/Biryani";
+        }
+        function redirectToLink1() {
+          window.location.href = "https://en.wikipedia.org/wiki/Fettuccine_Alfredo";
+        }
+        function redirectToLink2() {
+          window.location.href = "https://en.wikipedia.org/wiki/Paneer_tikka_masala";
+        }
+      </script>
+    <footer>
+        <p>&copy; 2024 Delicious Recipes</p>
+        <a href="https://www.facebook.com" target="_blank" class="footer-icon"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.twitter.com" target="_blank" class="footer-icon"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" target="_blank" class="footer-icon"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com" target="_blank" class="footer-icon"><i class="fab fa-linkedin"></i></a>
+    </footer>
+</body>
+
+</html>
